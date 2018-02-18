@@ -1,0 +1,15 @@
+{
+  "name": "docker-lambda-nodejs-host",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Docker image that executes the supplied handler every N seconds.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Troy Goode <troygoode@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "aws-sdk": "^2.197.0"
+  }
+}
